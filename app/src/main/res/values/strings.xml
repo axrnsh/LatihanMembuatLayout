@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LatihanMembuatLayout</string>
+    <string name="nameText">Nama</string>
+    <string name="studentIdText">StudentID</string>
+    <string name="majorText">Jurusan</string>
+    <string name="hobbyText">Hobi</string>
+
+    <string name="buttonText">OKE</string>
+</resources>
