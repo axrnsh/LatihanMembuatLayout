@@ -6,4 +6,7 @@
     <string name="hobbyText">Hobi</string>
 
     <string name="buttonText">OKE</string>
+
+    <string name="add_button_description">Tampilkan teks</string>
+    <string name="cross_button_description">Hapus semua</string>
 </resources>
