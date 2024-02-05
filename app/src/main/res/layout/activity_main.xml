@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     tools:context=".MainActivity">
-
+    
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -27,7 +27,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/nameText"
-                    android:textSize="@dimen/textSizeSmall" />
+                    android:textSize="@dimen/textSizeSmall"
+                    android:paddingLeft="@dimen/paddingLeft"/>
             </LinearLayout>
 
             <LinearLayout
@@ -62,7 +63,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/studentIdText"
-                    android:textSize="@dimen/textSizeSmall" />
+                    android:textSize="@dimen/textSizeSmall"
+                    android:paddingLeft="@dimen/paddingLeft"/>
 
             </LinearLayout>
 
@@ -98,7 +100,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/majorText"
-                    android:textSize="@dimen/textSizeSmall" />
+                    android:textSize="@dimen/textSizeSmall"
+                    android:paddingLeft="@dimen/paddingLeft"/>
             </LinearLayout>
 
             <LinearLayout
@@ -133,7 +136,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/hobbyText"
-                    android:textSize="@dimen/textSizeSmall" />
+                    android:textSize="@dimen/textSizeSmall"
+                    android:paddingLeft="@dimen/paddingLeft"/>
             </LinearLayout>
 
             <LinearLayout

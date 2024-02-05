@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <dimen name="textSizeLarge">25sp</dimen>
     <dimen name="textSizeMedium">22sp</dimen>
     <dimen name="textSizeSmall">20sp</dimen>
+    <dimen name="textSizeSuperSmall">14sp</dimen>
     <dimen name="paddingLeft">10dp</dimen>
+    <dimen name="margin15">15dp</dimen>
+    <dimen name="margin10">10dp</dimen>
 
 </resources>

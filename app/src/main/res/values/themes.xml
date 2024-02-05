@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.LatihanMembuatLayout" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <item name="colorPrimary">@color/pink</item>
+        <item name="colorPrimary">@color/green</item>
     </style>
 
     <style name="Theme.LatihanMembuatLayout" parent="Base.Theme.LatihanMembuatLayout" />
