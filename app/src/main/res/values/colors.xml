@@ -4,7 +4,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="pink">#FF9CBE</color>
     <color name="green">#a8b45c</color>
+    <color name="darkGreen">#86973b</color>
     <color name="brown">#f0dcc4</color>
-    <color name="darkbrown">#d8b494</color>
+    <color name="darkBrown">#d8b494</color>
 
 </resources>

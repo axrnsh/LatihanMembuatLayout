@@ -1,18 +1,38 @@
 package com.example.latihanmembuatlayout;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
-import androidx.appcompat.widget.Toolbar;
+import android.view.View;
+import android.widget.LinearLayout;
 
 public class LayoutManager extends AppCompatActivity {
+    LinearLayout profLayout;
+    LinearLayout todoListLayout;
 
-    Toolbar toolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_layout_manager);
 
-        toolbar = findViewById(R.id.toolbarInclude);
-        setSupportActionBar(toolbar);
+        profLayout = findViewById(R.id.prof);
+        todoListLayout = findViewById(R.id.todolist);
+
+        profLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LayoutManager.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        todoListLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LayoutManager.this, komponenProduktiv.class);
+                startActivity(intent);
+            }
+        });
     }
 }
